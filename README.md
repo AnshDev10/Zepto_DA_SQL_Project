@@ -30,7 +30,7 @@ Through a combination of aggregations, filtering, and conditional logic, this pr
 <li>Business-Oriented Analysis</li></ul>
 
 **🔍 Project Workflow**
-1. Data Exploration
+<b>1. Data Exploration</b>
 Counted total records to validate dataset size
 Checked for null values across all columns
 Identified unique product categories
