@@ -34,12 +34,12 @@ Identified unique product categories
 Analyzed stock distribution (in-stock vs out-of-stock)
 Detected duplicate product names across SKUs
 
-2. Data Cleaning
+4. Data Cleaning
 Removed invalid records where MRP = 0
 Converted price fields from paise to rupees for accurate analysis
 Ensured consistency across pricing columns
 
-3. Key Business Analysis
+5. Key Business Analysis
 <ul><li>Top Discounted Products (Max: 51%)</li>
 Products like Dukes Waffy (Strawberry, Chocolate, Orange) offer the highest discounts at 51%, indicating aggressive pricing in the wafers/snacks segment.
 
