@@ -35,12 +35,12 @@ Through a combination of aggregations, filtering, and conditional logic, this pr
 <li>Checked for null values across all columns</li>
 <li>Identified unique product categories</li>
 <li>Analyzed stock distribution (in-stock vs out-of-stock)</li>
-<li>Detected duplicate product names across SKUs</li>
+<li>Detected duplicate product names across SKUs</li></ul>
 
 2. Data Cleaning
 <ul><li>Removed invalid records where MRP = 0</li>
 <li>Converted price fields from paise to rupees for accurate analysis</li>
-<li>Ensured consistency across pricing columns</li>
+<li>Ensured consistency across pricing columns</li></ul>
 
 5. Key Business Analysis
 <ul><li>Top Discounted Products (Max: 51%)</li>
