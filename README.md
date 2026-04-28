@@ -24,22 +24,22 @@ The focus is on real-world business questions such as identifying high-value pro
 <li>Data Cleaning & Transformation</li>
 <li>Aggregations & Grouping</li>
 <li>Conditional Logic (CASE WHEN)</li>
-<li>Business-Oriented Analysis</li></ul>ul>
+<li>Business-Oriented Analysis</li></ul>
 
 **🔍 Project Workflow**
-1. Data Exploration
+<ol>1. Data Exploration</ol>
 Counted total records to validate dataset size
 Checked for null values across all columns
 Identified unique product categories
 Analyzed stock distribution (in-stock vs out-of-stock)
 Detected duplicate product names across SKUs
 
-2. Data Cleaning
+<ol>2. Data Cleaning</ol>
 Removed invalid records where MRP = 0
 Converted price fields from paise to rupees for accurate analysis
 Ensured consistency across pricing columns
 
-3. Key Business Analysis
+<ol>3. Key Business Analysis</ol>
 <ul><li>Top Discounted Products (Max: 51%)</li>
 Products like Dukes Waffy (Strawberry, Chocolate, Orange) offer the highest discounts at 51%, indicating aggressive pricing in the wafers/snacks segment.
 
@@ -67,17 +67,17 @@ Chocolates & Candies: 490,797 g
 Inventory is heavily concentrated in a few categories, impacting storage and logistics planning.</ul>
 
 **📈 Key Insights**
-<ul>Duplicate Product Names Across SKUs
+<ul><li>Duplicate Product Names Across SKUs</li>
 Several products appear multiple times under different SKUs, indicating variations in pack sizes, weights, or packaging formats.
 
--Presence of High-Value Stockouts
+<li>Presence of High-Value Stockouts</li>
 Multiple products priced above ₹300+ are out of stock, suggesting missed revenue opportunities in premium segments.
 
--Uneven Discount Distribution
+<li>Uneven Discount Distribution</li>
 Discounts are not uniformly applied across categories, with some categories consistently offering higher average discounts, reflecting category-specific pricing strategies.
 
--Pricing Inefficiencies Identified
+<li>Pricing Inefficiencies Identified</li>
 Price-per-gram analysis highlights significant variation, where some products are disproportionately priced compared to their weight, indicating scope for pricing optimization.
 
--Inventory Skew Toward Select Categories
+<li>Inventory Skew Toward Select Categories</li>
 A large portion of total inventory weight is concentrated in a few categories like Cooking Essentials and Munchies, which may impact warehouse space and supply chain planning.</ul>
