@@ -1,4 +1,4 @@
-**🛒 Zepto Inventory Analysis using SQL**
+<h1>**🛒 Zepto Inventory Analysis using SQL**</h1>
 
 **📌 Overview**<br>
 This project focuses on analyzing Zepto’s inventory dataset using SQL to uncover actionable insights around pricing strategy, discount patterns, stock availability, and category-level performance.
@@ -42,7 +42,7 @@ Through a combination of aggregations, filtering, and conditional logic, this pr
 <li>Converted price fields from paise to rupees for accurate analysis</li>
 <li>Ensured consistency across pricing columns</li></ul>
 
-5. Key Business Analysis
+3. Key Business Analysis
 <ul><li>Top Discounted Products (Max: 51%)</li>
 Products like Dukes Waffy (Strawberry, Chocolate, Orange) offer the highest discounts at 51%, indicating aggressive pricing in the wafers/snacks segment.
 
