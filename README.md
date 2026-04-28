@@ -1,4 +1,4 @@
-#**🛒 Zepto Inventory Analysis using SQL**#
+#**🛒 Zepto Inventory Analysis using SQL**
 
 **📌 Overview**
 This project analyzes Zepto’s inventory dataset using SQL to uncover insights around pricing, discounts, stock availability, and category-level performance.
