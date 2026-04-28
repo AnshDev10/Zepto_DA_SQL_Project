@@ -20,11 +20,11 @@ The focus is on real-world business questions such as identifying high-value pro
 <li>outOfStock – Stock status</li></ul>
 
 **🛠️ Tools & Skills Used**
-SQL (PostgreSQL/MySQL compatible)
-Data Cleaning & Transformation
-Aggregations & Grouping
-Conditional Logic (CASE WHEN)
-Business-Oriented Analysis
+<ul><li>SQL (PostgreSQL)</li>
+<li>Data Cleaning & Transformation</li>
+<li>Aggregations & Grouping</li>
+<li>Conditional Logic (CASE WHEN)</li>
+<li>Business-Oriented Analysis</li></ul>ul>
 
 **🔍 Project Workflow**
 1. Data Exploration
@@ -40,34 +40,34 @@ Converted price fields from paise to rupees for accurate analysis
 Ensured consistency across pricing columns
 
 3. Key Business Analysis
--Top Discounted Products (Max: 51%)
+<ul><li>Top Discounted Products (Max: 51%)</li>
 Products like Dukes Waffy (Strawberry, Chocolate, Orange) offer the highest discounts at 51%, indicating aggressive pricing in the wafers/snacks segment.
 
--High MRP but Out of Stock (₹399 – ₹565)
+<li>High MRP but Out of Stock (₹399 – ₹565)</li>
 Products such as Patanjali Cow’s Ghee (₹565) and premium diaper SKUs are out of stock, highlighting potential missed revenue on high-value items.
 
--Top Revenue-Contributing Categories
+<li>Top Revenue-Contributing Categories</li>
 Cooking Essentials: ₹3,37,369
 Munchies: ₹3,37,369
 Paan Corner: ₹2,70,849
 These categories dominate estimated revenue based on price × quantity.
 
--Highest Average Discount by Category
+<li>Highest Average Discount by Category</li>
 Fruits & Vegetables: ~15.46%
 Meats, Fish & Eggs: ~11.03%
 Indicates that fresh/perishable categories rely more on discount-driven sales.
 
--Worst Price Efficiency (Highest ₹/gram)
+<li>Worst Price Efficiency (Highest ₹/gram)</li>
 Products like Indulekha Bhringa Hair Oil (~₹3.67/g) rank among the least cost-efficient, showing pricing variation across categories.
 
--Inventory Weight Concentration
+<li>Inventory Weight Concentration</li>
 Cooking Essentials: 1,404,654 g
 Munchies: 1,404,654 g
 Chocolates & Candies: 490,797 g
-Inventory is heavily concentrated in a few categories, impacting storage and logistics planning.
+Inventory is heavily concentrated in a few categories, impacting storage and logistics planning.</ul>
 
 **📈 Key Insights**
--Duplicate Product Names Across SKUs
+<ul>Duplicate Product Names Across SKUs
 Several products appear multiple times under different SKUs, indicating variations in pack sizes, weights, or packaging formats.
 
 -Presence of High-Value Stockouts
@@ -80,4 +80,4 @@ Discounts are not uniformly applied across categories, with some categories cons
 Price-per-gram analysis highlights significant variation, where some products are disproportionately priced compared to their weight, indicating scope for pricing optimization.
 
 -Inventory Skew Toward Select Categories
-A large portion of total inventory weight is concentrated in a few categories like Cooking Essentials and Munchies, which may impact warehouse space and supply chain planning.
+A large portion of total inventory weight is concentrated in a few categories like Cooking Essentials and Munchies, which may impact warehouse space and supply chain planning.</ul>
