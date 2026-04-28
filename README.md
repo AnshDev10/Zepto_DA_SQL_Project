@@ -1,13 +1,13 @@
 <h1>🛒 Zepto Inventory Analysis using SQL</h1>
 
-**📌 Overview**<br>
+<h3>📌 Overview</h3><br>
 This project focuses on analyzing Zepto’s inventory dataset using SQL to uncover actionable insights around pricing strategy, discount patterns, stock availability, and category-level performance.
 
 The dataset consists of 3,732 products across multiple categories, where raw data was first structured into a relational table, followed by data validation, cleaning, and transformation (including handling invalid pricing and standardizing values from paise to rupees).
 
 Through a combination of aggregations, filtering, and conditional logic, this project translates raw inventory data into meaningful business insights that can support decision-making in pricing, inventory management, and supply planning.
 
-<h3>**📊 Dataset Summary**</h3>
+<h3>📊 Dataset Summary</h3>
 <ul><li>Source: Kaggle – Zepto Inventory Dataset</li>
 <li>Rows: 3,732</li>
 <li>Columns: 9</li>
@@ -22,27 +22,28 @@ Through a combination of aggregations, filtering, and conditional logic, this pr
 <li>weightInGms – Product weight</li>
 <li>outOfStock – Stock status</li></ul>
 
-**🛠️ Tools & Skills Used**
+<h3>🛠️ Tools & Skills Used</h3>
 <ul><li>SQL (PostgreSQL)</li>
 <li>Data Cleaning & Transformation</li>
 <li>Aggregations & Grouping</li>
 <li>Conditional Logic (CASE WHEN)</li>
 <li>Business-Oriented Analysis</li></ul>
 
-**🔍 Project Workflow**
-1. Data Exploration
+<h3>🔍 Project Workflow**</h3>
+
+**1. Data Exploration**
 <ul><li>Counted total records to validate dataset size</li>
 <li>Checked for null values across all columns</li>
 <li>Identified unique product categories</li>
 <li>Analyzed stock distribution (in-stock vs out-of-stock)</li>
 <li>Detected duplicate product names across SKUs</li></ul>
 
-2. Data Cleaning
+**2. Data Cleaning**
 <ul><li>Removed invalid records where MRP = 0</li>
 <li>Converted price fields from paise to rupees for accurate analysis</li>
 <li>Ensured consistency across pricing columns</li></ul>
 
-3. Key Business Analysis
+**3. Key Business Analysis**
 <ul><li>Top Discounted Products (Max: 51%)</li>
 Products like Dukes Waffy (Strawberry, Chocolate, Orange) offer the highest discounts at 51%, indicating aggressive pricing in the wafers/snacks segment.
 
