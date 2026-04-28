@@ -27,19 +27,19 @@ The focus is on real-world business questions such as identifying high-value pro
 <li>Business-Oriented Analysis</li></ul>
 
 **🔍 Project Workflow**
-<ol>1. Data Exploration</ol>
+1. Data Exploration
 Counted total records to validate dataset size
 Checked for null values across all columns
 Identified unique product categories
 Analyzed stock distribution (in-stock vs out-of-stock)
 Detected duplicate product names across SKUs
 
-<ol>2. Data Cleaning</ol>
+2. Data Cleaning
 Removed invalid records where MRP = 0
 Converted price fields from paise to rupees for accurate analysis
 Ensured consistency across pricing columns
 
-<ol>3. Key Business Analysis</ol>
+3. Key Business Analysis
 <ul><li>Top Discounted Products (Max: 51%)</li>
 Products like Dukes Waffy (Strawberry, Chocolate, Orange) offer the highest discounts at 51%, indicating aggressive pricing in the wafers/snacks segment.
 
