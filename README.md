@@ -1,8 +1,8 @@
 **🛒 Zepto Inventory Analysis using SQL**
 
 **📌 Overview**
-<ul>This project analyzes Zepto’s inventory dataset using SQL to uncover insights around pricing, discounts, stock availability, and category-level performance.
-The focus is on real-world business questions such as identifying high-value products, estimating revenue, and understanding inventory distribution.</ul>
+This project analyzes Zepto’s inventory dataset using SQL to uncover insights around pricing, discounts, stock availability, and category-level performance.
+The focus is on real-world business questions such as identifying high-value products, estimating revenue, and understanding inventory distribution.
 
 **📊 Dataset Summary**
 <ul><li>Source: Kaggle – Zepto Inventory Dataset</li>
