@@ -1,6 +1,6 @@
 <h1>🛒 Zepto Inventory Analysis using SQL</h1>
 
-<h3>📌 Overview</h3><br>
+<h3>📌 Overview</h3>
 This project focuses on analyzing Zepto’s inventory dataset using SQL to uncover actionable insights around pricing strategy, discount patterns, stock availability, and category-level performance.
 
 The dataset consists of 3,732 products across multiple categories, where raw data was first structured into a relational table, followed by data validation, cleaning, and transformation (including handling invalid pricing and standardizing values from paise to rupees).
@@ -29,7 +29,7 @@ Through a combination of aggregations, filtering, and conditional logic, this pr
 <li>Conditional Logic (CASE WHEN)</li>
 <li>Business-Oriented Analysis</li></ul>
 
-<h3>🔍 Project Workflow**</h3>
+<h3>🔍 Project Workflow</h3>
 
 **1. Data Exploration**
 <ul><li>Counted total records to validate dataset size</li>
