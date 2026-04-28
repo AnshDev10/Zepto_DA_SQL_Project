@@ -30,17 +30,17 @@ Through a combination of aggregations, filtering, and conditional logic, this pr
 <li>Business-Oriented Analysis</li></ul>
 
 **🔍 Project Workflow**
-<b>1. Data Exploration</b>
-Counted total records to validate dataset size
-Checked for null values across all columns
-Identified unique product categories
-Analyzed stock distribution (in-stock vs out-of-stock)
-Detected duplicate product names across SKUs
+1. Data Exploration
+<ul><li>Counted total records to validate dataset size</li>
+<li>Checked for null values across all columns</li>
+<li>Identified unique product categories</li>
+<li>Analyzed stock distribution (in-stock vs out-of-stock)</li>
+<li>Detected duplicate product names across SKUs</li>
 
-4. Data Cleaning
-Removed invalid records where MRP = 0
-Converted price fields from paise to rupees for accurate analysis
-Ensured consistency across pricing columns
+2. Data Cleaning
+<ul><li>Removed invalid records where MRP = 0</li>
+<li>Converted price fields from paise to rupees for accurate analysis</li>
+<li>Ensured consistency across pricing columns</li>
 
 5. Key Business Analysis
 <ul><li>Top Discounted Products (Max: 51%)</li>
