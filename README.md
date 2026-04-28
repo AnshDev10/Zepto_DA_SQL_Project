@@ -5,6 +5,7 @@ This project analyzes Zepto’s inventory dataset using SQL to uncover insights 
 The focus is on real-world business questions such as identifying high-value products, estimating revenue, and understanding inventory distribution.
 
 **📊 Dataset Summary**
+<ul>
 Source: Kaggle – Zepto Inventory Dataset
 Rows: 3,732
 Columns: 9
@@ -17,7 +18,7 @@ discountPercent – Discount applied
 discountedSellingPrice – Final selling price
 availableQuantity – Units available
 weightInGms – Product weight
-outOfStock – Stock status
+outOfStock – Stock status</ul>
 
 **🛠️ Tools & Skills Used**
 SQL (PostgreSQL/MySQL compatible)
