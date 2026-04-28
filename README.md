@@ -1,13 +1,13 @@
 <h1>🛒 Zepto Inventory Analysis using SQL</h1>
 
-<h4>📌 Overview</h4><br>
+**📌 Overview**<br>
 This project focuses on analyzing Zepto’s inventory dataset using SQL to uncover actionable insights around pricing strategy, discount patterns, stock availability, and category-level performance.
 
 The dataset consists of 3,732 products across multiple categories, where raw data was first structured into a relational table, followed by data validation, cleaning, and transformation (including handling invalid pricing and standardizing values from paise to rupees).
 
 Through a combination of aggregations, filtering, and conditional logic, this project translates raw inventory data into meaningful business insights that can support decision-making in pricing, inventory management, and supply planning.
 
-**📊 Dataset Summary**
+<h3>**📊 Dataset Summary**</h3>
 <ul><li>Source: Kaggle – Zepto Inventory Dataset</li>
 <li>Rows: 3,732</li>
 <li>Columns: 9</li>
