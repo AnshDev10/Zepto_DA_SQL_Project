@@ -1,9 +1,7 @@
 <h1>🛒 Zepto Inventory Analysis using SQL</h1>
 
 <h3>📌 Overview</h3>
-This project focuses on analyzing Zepto’s inventory dataset using SQL to uncover actionable insights around pricing strategy, discount patterns, stock availability, and category-level performance.   
-
-The dataset consists of 3,732 products across multiple categories, where raw data was first structured into a relational table, followed by data validation, cleaning, and transformation (including handling invalid pricing and standardizing values from paise to rupees).
+This project focuses on analyzing Zepto’s inventory dataset using SQL to uncover actionable insights around pricing strategy, discount patterns, stock availability, and category-level performance.<br>The dataset consists of 3,732 products across multiple categories, where raw data was first structured into a relational table, followed by data validation, cleaning, and transformation (including handling invalid pricing and standardizing values from paise to rupees).
 
 Through a combination of aggregations, filtering, and conditional logic, this project translates raw inventory data into meaningful business insights that can support decision-making in pricing, inventory management, and supply planning.
 
@@ -70,7 +68,7 @@ Munchies: 1,404,654 g
 Chocolates & Candies: 490,797 g
 Inventory is heavily concentrated in a few categories, impacting storage and logistics planning.</ul>
 
-**📈 Key Insights**
+<h3>📈 Key Insights</h3>
 <ul><li>Duplicate Product Names Across SKUs</li>
 Several products appear multiple times under different SKUs, indicating variations in pack sizes, weights, or packaging formats.
 
